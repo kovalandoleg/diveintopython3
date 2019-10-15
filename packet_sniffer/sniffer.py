@@ -79,7 +79,7 @@ while True:
       #get data from the packet
       data = packet[h_size:]
       
-      print('Data : ' + data)
+      print('Data : ' + str(data))
 
     #ICMP Packets
     elif protocol == 1 :
